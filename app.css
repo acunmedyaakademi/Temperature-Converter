@@ -57,6 +57,30 @@ body {
   font-family: inherit;
 }
 
+#convert-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #264653;
+  color: #fff;
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+#convert-btn:active {
+  transform: scale(0.91) scaleX(0.91);
+}
+
+#result {
+  text-align: center;
+}
+
 ::placeholder {
   font-size: 16px;
 }
